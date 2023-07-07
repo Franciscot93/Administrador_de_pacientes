@@ -17,9 +17,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
       setEmail(paciente.email);
       setFecha(paciente.fecha);
       setSintomas(paciente.sintomatologia);
-    } else {
-      console.log("no hay nada");
-    }
+    } 
   }, [paciente]);
 
   const generarId = () => {
